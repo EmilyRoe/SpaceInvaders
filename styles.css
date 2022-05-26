@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.game-container {
+    font-family: "Press Start 2P";
+    background-color: grey;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.ships {
+    height: 500px;
+    width: 1250px;
+    background-image: url("./spacebackground.png");
+    background-size: 100%;
+    margin: 20px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: black solid 1px;
+}
+
+.row {
+    margin: 20px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.mother-ship {
+    height: 50px;
+    width: 50px;
+    margin: 20px 20px;
+    color: white;
+}
+
+.mother-ship-img {
+    height: 60px;
+    width: 60px;
+    margin: 20px 20px;
+    color: white;
+}
+
+.defence-ship {
+    height: 50px;
+    width: 50px;
+    margin: 20px 20px;
+    color: white;
+}
+
+.defence-ship-img {
+    height: 50px;
+    width: 50px;
+    margin: 20px 20px;
+    color: white;
+}
+
+.attack-ship {
+    height: 40px;
+    width: 40px;
+    margin: 20px 20px;
+    color: white;
+}
+
+.attack-ship-img {
+    height: 40px;
+    width: 40px;
+    margin: 20px 20px;
+    color: white;
+}
+
+.shoot-ship {
+    height: 75px;
+    width: 30px;
+    color: white;
+}
+
+.shoot-btn {
+    height: 50px;
+    width: 150px;
+    background-color: lightgray;
+    font-family: "Press Start 2P";
+    border-radius: 5px;
+}
+
+.shoot-btn:hover {
+    cursor: pointer;
+}
+
+.end-game-message {
+    height: auto;
+    width: 500px;
+    margin: 20px 20px;
+    padding: 20px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color:#f78f4a;
+    border: black solid 1px;
+    border-radius: 5px;
+    font-family: "Press Start 2P";
+}
+
+p {
+    padding: 20px 20px;
+}
+
+.restart-btn {
+    height: 50px;
+    width: 150px;
+    background-color: lightgrey;
+    font-family: "Press Start 2P";
+    border-radius: 5px;
+}
+
+.restart-btn:hover {
+    cursor: pointer;
+} 
