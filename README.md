@@ -8,11 +8,7 @@ This project is a simple game based loosely on Space Invaders. This challenge wa
 
 This game has three different types of ship, the mother ship, attack ships and defence ships. Each ship has been allocted a set number of points through an if statement. The deduct points function then is then used to remove a set amount of points from the individual ships at random via the shoot button. 
 
-[image]
-
 Once all the points hit zero, a 'You Win!' message appears and the user can click the play again button to restart the game. 
-
-[image]
 
 ## Technology
 
@@ -33,4 +29,4 @@ https://github.com/EmilyRoe/SpaceInvaders/tree/master
 
 ### Deployed App
 
-[link]
+https://emilyroe.github.io/SpaceInvaders/
