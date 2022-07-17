@@ -29,7 +29,7 @@ Once all the points hit zero, a 'You Win!' message appears and the user can clic
 
 ### Github Repo
 
-[link]
+https://github.com/EmilyRoe/SpaceInvaders/tree/master
 
 ### Deployed App
 
